@@ -1,0 +1,29 @@
+<div class="review">
+  {{#each hike.reviews as |review|}}
+    <h3>{{review.author}}</h3>
+    <h4>Rating: {{review.rating}}</h4>
+    <p>{{review.comment}}</p>
+
+
+    <!-- {{#if updateAnswerForm}}
+        <div>
+          <form>
+            <div class="form-group">
+              <label for="author">Author</label>
+              {{input value=author id="author" placeholder=review.author class="form-control"}}
+            </div>
+
+            <div class="form-group">
+              <label for="content">Content</label>
+              {{textarea rows="4" cols="30" value=content id="content" placeholder=review.content class="form-control"}}
+            </div>
+            <button {{action 'updateAnswer' review}}>Save Answer</button>
+          </form>
+        </div>
+    {{else}}
+        <button {{action 'updateAnswerForm'}}>Edit Answer</button>
+    {{/if}} -->
+
+    <button {{action 'deleteReview' review}}>Delete Review</button><hr>
+  {{/each}}
+</div>
