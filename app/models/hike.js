@@ -6,5 +6,10 @@ export default DS.Model.extend({
   image: DS.attr(),
   description: DS.attr(),
   difficulty: DS.attr(),
-  reviews: DS.hasMany('review', {async: true})
+  reviews: DS.hasMany('review', {async: true}),
+
+  favoriteHikes: Ember.inject.service(),
+  onFavorites: Ember.computed('favoriteHikes.favorites.[]', function() {
+    return this.get('favoriteHikes').includes(this)
+  })
 });

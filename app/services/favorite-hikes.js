@@ -8,5 +8,8 @@ export default Ember.Service.extend({
   },
   remove(favorite) {
     this.get('favorites').removeObject(favorite);
+  },
+  includes(favorite) {
+    return this.get('favorites').includes(favorite);
   }
 });

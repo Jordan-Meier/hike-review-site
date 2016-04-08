@@ -5,7 +5,11 @@
     <img src="{{hike.image}}" alt="{{hike.name}}" />
     <p>{{hike.description}}</p>
     <br>
-    <button {{action 'addToFavorites' hike}}>Add this Hike to your Favorites</button>
+    {{#if hike.onFavorites}}
+      <h4>This hike is already on your favorites list!</h4>
+    {{else}}
+      <button {{action 'addToFavorites' hike}}>Add this Hike to your Favorites</button>
+    {{/if}}  
   </div>
 <br>
 </div>
