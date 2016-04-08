@@ -1,9 +1,16 @@
+body {
+  background-color: #F4F0B0;
+}
+
 .jumbotron {
   margin-bottom: 0;
+  background-color: #A89F68;
+  color: #EAC78A;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .welcome {
-
+  font-size: 1.5em;
 }
 
 img {
