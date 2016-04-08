@@ -4,6 +4,8 @@
     <h3><em>{{hike.location}}</em> difficulty: {{hike.difficulty}}</h3>
     <img src="{{hike.image}}" alt="{{hike.name}}" />
     <p>{{hike.description}}</p>
+    <br>
+    <button {{action 'addToFavorites' hike}}>Add this Hike to your Favorites</button>
   </div>
 <br>
 </div>

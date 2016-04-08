@@ -1,0 +1,13 @@
+<ul>
+{{#each favoriteHikes.favorites as |favorite|}}
+  <li>
+    {{#link-to 'hike' hike.id}}
+      <div class="">
+        <h3>{{favorite.name}}: {{favorite.location}}</h3>
+        <img src="{{favorite.image}}" alt="{{favorite.name}}" />
+      </div>
+    {{/link-to}}
+  <button {{action 'removeFromFavorites' favorite}}>Remove from Favorites</button>
+</li>
+{{/each}}
+</ul>
