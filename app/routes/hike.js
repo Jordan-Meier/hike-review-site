@@ -17,5 +17,9 @@ export default Ember.Route.extend({
       });
       this.transitionTo('hike');
     },
+    deleteReview(review) {
+      review.destroyRecord();
+      this.transitionTo('hike');
+    }
   }
 });
