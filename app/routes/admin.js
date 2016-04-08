@@ -8,6 +8,11 @@ export default Ember.Route.extend({
     deleteHike(hike) {
       hike.destroyRecord();
       this.transitionTo('admin');
+    },
+    addHike(params) {
+      var newHike = this.store.createRecord('hike', params);
+      newHike.save();
+      this.transitionTo('admin');
     }
   }
 });

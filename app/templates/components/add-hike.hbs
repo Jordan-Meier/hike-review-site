@@ -1,0 +1,46 @@
+{{#if addNewHike}}
+<h1>New Hike</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          {{input value=name id="name"}}
+        </div>
+
+        <div class="form-group">
+          <label for="location">Location</label>
+          {{input value=location id="location"}}
+        </div>
+
+        <div class="form-group">
+          <label for="image">Image URL</label>
+          {{input value=image id="image"}}
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description of Hike</label>
+          {{textarea value=description id="description" rows="5"}}
+        </div>
+
+        <div class="form-group">
+          <select {{action 'chooseDifficulty' on='change'}}>
+            <option value="null">Select a Difficulty. 1 is easiest, 10 is hardest.</option>
+            <option value= 1>1</option>
+            <option value= 2>2</option>
+            <option value= 3>3</option>
+            <option value= 4>4</option>
+            <option value= 5>5</option>
+            <option value= 6>6</option>
+            <option value= 7>7</option>
+            <option value= 8>8</option>
+            <option value= 9>9</option>
+            <option value= 10>10</option>
+          </select>
+        </div>
+
+        <button class="btn-lg btn-success"{{action 'addHike'}}>Save</button>
+      </form>
+    </div>
+{{else}}
+  <button class="btn-lg btn-primary"{{action 'hikeFormShow'}}>Add New Hike</button>
+{{/if}}
