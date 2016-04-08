@@ -1,7 +1,8 @@
 <div class="hike-detail row">
   <div class="col-sm-10">
     <h1>{{hike.name}}</h1>
-    <h3><em>{{hike.location}}</em> difficulty: {{hike.difficulty}}</h3>
+    <h3><em>{{hike.location}}</em></h3>
+    <h3>Difficulty: {{hike.difficulty}}</h3>
     <img src="{{hike.image}}" alt="{{hike.name}}" />
     <p>{{hike.description}}</p>
     <br>
@@ -9,7 +10,7 @@
       <h4>This hike is already on your favorites list!</h4>
     {{else}}
       <button {{action 'addToFavorites' hike}}>Add this Hike to your Favorites</button>
-    {{/if}}  
+    {{/if}}
   </div>
 <br>
 </div>
