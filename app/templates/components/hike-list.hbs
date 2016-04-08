@@ -1,0 +1,15 @@
+<select {{action 'selectDifficulty' on='change'}}>
+  <option value="all">All Hikes</option>
+  <option value="easy">Easy Hikes</option>
+  <option value="medium">Medium Difficulty Hikes</option>
+  <option value="difficult">Difficult Hikes</option>
+  <option value="expert">Experts Only</option>
+</select>
+
+<div class="row">
+  <div class="display col-md-7">
+    {{#each hikes as |hike|}}
+      {{hike-tile hike=hike}}<hr>
+    {{/each}}
+  </div>
+</div>

@@ -5,6 +5,6 @@ export default DS.Model.extend({
   location: DS.attr(),
   image: DS.attr(),
   description: DS.attr(),
-  difficulty: DS.attr('number'),
+  difficulty: DS.attr(),
   reviews: DS.hasMany('review', {async: true})
 });
