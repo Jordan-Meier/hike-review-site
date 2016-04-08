@@ -1,6 +1,6 @@
-<ul>
+
 {{#each favoriteHikes.favorites as |favorite|}}
-  <li>
+  <div class="container">
     {{#link-to 'hike' hike.id}}
       <div class="">
         <h3>{{favorite.name}}: {{favorite.location}}</h3>
@@ -8,6 +8,5 @@
       </div>
     {{/link-to}}
   <button class="btn btn-danger"{{action 'removeFromFavorites' favorite}}>Remove from Favorites</button>
-</li>
+</div>
 {{/each}}
-</ul>
