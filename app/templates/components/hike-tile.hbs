@@ -1,8 +1,6 @@
-<!-- <div class="">
-  <h3>{{#link-to 'question' question.id}}{{question.title}}{{/link-to}} Asked By: {{question.author}}</h3>
-</div> -->
-
-<div class="">
-  <h3>{{hike.name}}</h3>
-  <img src="{{hike.image}}" alt="{{hike.name}}" />
-</div>
+{{#link-to 'hike' hike.id}}
+  <div class="">
+    <h3>{{hike.name}}</h3>
+    <img src="{{hike.image}}" alt="{{hike.name}}" />
+  </div>
+{{/link-to}}
