@@ -7,4 +7,15 @@ export default Ember.Route.extend({
       reviews: this.store.findAll('review')
     });
   },
+  actions: {
+    saveReview(params) {
+      var newReview = this.store.createRecord('review', params);
+      var hike = params.hike;
+      hike.get('reviews').addObject(newReview);
+      newReview.save().then(function() {
+        return hike.save();
+      });
+      this.transitionTo('hike');
+    },
+  }
 });
