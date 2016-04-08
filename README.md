@@ -8,7 +8,7 @@
 
 This week's code review is a website where users can find information about local hikes, leave reviews for them and add them to a favorites list.
 
-![screenshot of github user search website](public/images/screenshot.jpg)
+![screenshot of hike review](public/images/screenshot.jpg)
 
 ### Known Bugs
 
