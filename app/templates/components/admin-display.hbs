@@ -1,0 +1,13 @@
+{{#each hikes as |hike|}}
+  <div class="admin-display container row">
+    <div class="col-sm-10">
+      <h1>{{hike.name}}</h1>
+      <h3><em>{{hike.location}}</em> difficulty: {{hike.difficulty}}</h3>
+      <img src="{{hike.image}}" alt="{{hike.name}}" />
+      <p>{{hike.description}}</p>
+      <button class="btn btn-danger"{{action 'deleteHike' hike}}>Delete this Hike</button>
+      <br>
+      <hr>
+    </div>
+  </div>
+{{/each}}
