@@ -1,19 +1,19 @@
-{ "questions": [{
-    "name": "My cat won't stop eating my house plants. Why?",
-    "location": "Popeye",
-    "image":"03/26/2016",
+{ "hikes": [{
+    "name": "Silver Star Mountain",
+    "location": "Washington",
+    "image":"http://www.nwhiker.com/footers/SSLH07ss.jpg",
     "difficulty": 5,
     "description":"Lucid dreaming superfood the healing properties of, rain dance natural homebirth. Somatic awareness eye-gazing, yoga master phish my brothers and sisters? Spirit Rock compostable toilet open-minded perineum flax seed crackers loving kindness higher cosmic force kefir, innate capacity gifting circle promoting positive change. Empowering messages hooping geodesic dome, vegan nectar entheogen alkaline. Vipassana tahini fertility awareness quinoa, karmic oneness radiant jasmine five rhtyhms himalayan sea salt plant consciousness co-create? Lentils cuddle party nectar, community personal development infinite blessings embodied. Be the change enneagram geodesic dome biodiesel Harbin downward dog, soothing vibrations acroyoga djembe integral chia seeds."
   }, {
-    "name": "How do I tell my neighbor that they park like morons?",
-    "location": "Popeye",
-    "image": "3/15/2015",
-    "difficulty": 8,
+    "name": "Multnomah Falls",
+    "location": "Oregon - Columbia River Gorge",
+    "image": "http://s3-media2.fl.yelpcdn.com/bphoto/VKbgTYHyvyGItu48w8yRhA/348s.jpg",
+    "difficulty": 3,
     "description": "Lucid dreaming superfood the healing properties of, rain dance natural homebirth. Somatic awareness eye-gazing, yoga master phish my brothers and sisters. Spirit Rock compostable toilet open-minded perineum flax seed crackers loving kindness higher cosmic force kefir, innate capacity gifting circle promoting positive change. Empowering messages hooping geodesic dome, vegan nectar entheogen alkaline. Vipassana tahini fertility awareness quinoa, karmic oneness radiant jasmine five rhtyhms himalayan sea salt plant consciousness co-create. Lentils cuddle party nectar, community personal development infinite blessings embodied. Be the change enneagram geodesic dome biodiesel Harbin downward dog, soothing vibrations acroyoga djembe integral chia seeds. Dakini cosmic core strength Hafiz lentils blessed, entheogen the power of intention tibetan singing bowl popcorn with brewers yeast."
   }, {
-    "name": "What's the best way to build a chicken coop?",
-    "location": "Popeye",
-    "image": "3/11/2016",
+    "name": "Falls Creek Falls",
+    "location": "Washington- Gifford Pinchot",
+    "image": "http://www.world-of-waterfalls.com/images/Falls_Creek_Falls_giff_022L.jpg",
     "difficulty": 3,
     "description": "One breath beyond the sea the lone gunmen the truth is out there triangle the elder, CGB spender fearful symmetry one breath all things. Conduit elegy special agent frohike alien civilizations jose chungs from outer space, billy miles its a dead cow clyde bruckmans final repose frohike. Starbuck mythology memento mori should we be picking out china patterns or what never again nothing important happened today folie a deux the sixth extinction. How the ghosts stole christmas young at heart biogenesis chinga the erlenmeyer flask starbuck cassandra spender the rain king, langly redux postmodern prometheus piper maru starbuck aliens probably."
   }]
