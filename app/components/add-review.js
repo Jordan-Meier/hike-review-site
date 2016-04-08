@@ -8,7 +8,7 @@ export default Ember.Component.extend({
       this.set('addNewReview', true);
     },
     chooseRating () {
-      this.set('chosenRating', event.target.value)
+      this.set('chosenRating', event.target.value);
     },
     saveReview() {
       var params = {

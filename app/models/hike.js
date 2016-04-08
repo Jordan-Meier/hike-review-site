@@ -10,6 +10,6 @@ export default DS.Model.extend({
 
   favoriteHikes: Ember.inject.service(),
   onFavorites: Ember.computed('favoriteHikes.favorites.[]', function() {
-    return this.get('favoriteHikes').includes(this)
+    return this.get('favoriteHikes').includes(this);
   })
 });
