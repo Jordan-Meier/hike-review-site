@@ -7,7 +7,7 @@
         <img src="{{favorite.image}}" alt="{{favorite.name}}" />
       </div>
     {{/link-to}}
-  <button {{action 'removeFromFavorites' favorite}}>Remove from Favorites</button>
+  <button class="btn btn-danger"{{action 'removeFromFavorites' favorite}}>Remove from Favorites</button>
 </li>
 {{/each}}
 </ul>
