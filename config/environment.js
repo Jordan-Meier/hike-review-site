@@ -21,6 +21,11 @@ module.exports = function(environment) {
     }
   };
 
+  if (environment === 'production') {
+    ENV.baseURL = '/hike-review-site/dist';
+    ENV.locationType = 'hash';
+  }
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

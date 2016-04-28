@@ -7,7 +7,7 @@
     <p>{{hike.description}}</p>
     <br>
     {{#if hike.onFavorites}}
-      <h4>This hike is already on your favorites list!</h4>
+      <h4>Hike added to favorites list!</h4>
     {{else}}
       <button {{action 'addToFavorites' hike}}>Add this Hike to your Favorites</button>
     {{/if}}
